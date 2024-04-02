@@ -36,6 +36,6 @@ public class FaceSnakeBody extends ForcedImageWindow {
             }
         };
         ScheduledExecutorService executor1 = Executors.newScheduledThreadPool(1);
-        executor1.schedule(dieRunnable, 1, TimeUnit.SECONDS);
+        executor1.schedule(dieRunnable, 500, TimeUnit.MILLISECONDS);
     }
 }
